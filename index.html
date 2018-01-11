@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SPIKE Dashboard</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/global.css" type="text/css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" type="text/css" />
+	
+	<!--
+		Coded by Mark Eriksson (http://mark-eriksson.com)
+		Original design by Scott Greenwald on dribbble.com (https://dribbble.com/shots/1638088-SPIKE-User-Dashboard/attachments/256140)
+	-->
+</head>
+<body>
+	<header class="clearfix">
+		<div class="container">
+			<div class="left-column">
+				<a href="index.html"><img src="img/logo.png" alt="SPIKE Dashboard" class="logo"></a>
+			</div>
+			<div class="right-column">
+				<div class="pull-left">
+					<nav>
+						<a href="#" class="active">User dashboard</a>
+						<a href="#">Developer dashboard</a>
+					</nav>
+				</div>
+				
+				<div class="pull-right">
+					<a href="#" id="user-card-link">
+						<img src="img/mark.jpeg" alt="Mark Eriksson" class="user-img circle" />
+						<span class="user-name">Mark Eriksson</span>
+						<i class="fa fa-caret-down user-arrow"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="container main-page clearfix">
+		<aside class="left-column">
+			<div class="subnav-unit">
+				<h2>Management Tools</h2>
+				
+				<ul class="subnav-links">
+					<li class="active"><a href="#"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a></li>
+					<li><a href="#"><i class="fa fa-fw fa-link"></i> Item Manager <span class="blue-badge">22</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-users"></i> Order History <span class="blue-badge">39</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-shopping-cart"></i> Purchase History <span class="blue-badge">0</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-money"></i> Payout History</a></li>
+					<li><a href="#"><i class="fa fa-fw fa-cog"></i> Account Settings</a></li>
+				</ul>
+			</div>
+			
+			<div class="subnav-unit">
+				<h2>General</h2>
+				
+				<ul class="subnav-links">
+					<li><a href="#"><i class="fa fa-fw fa-question-circle"></i> Help Center</a></li>
+				</ul>
+			</div>
+		</aside>
+		
+		<section class="right-column">
+			<div class="header clearfix">
+				<div class="pull-left">
+					<h1>Dashboard</h1>
+				</div>
+				
+				<div class="pull-right">
+					<a href="#" class="big-green-button">New Item <i class="fa fa-plus"></i></a>
+				</div>
+			</div>
+			
+			<article>
+				<div class="blue-box clearfix">
+					<div class="pull-left box-header">Your Balance</div>
+					
+					<div class="pull-right">
+						<label for="dollars" class="dark-blue"><input type="radio" checked="checked" name="currency_conversion" id="dollars" /> &dollar;1,170.00</label>
+						<label for="yen" class="dark-blue"><input type="radio" name="currency_conversion" id="yen" /> &yen;637,691</label>
+					</div>
+				</div>
+				
+				<div class="three-boxes">
+					<div class="blue-box">
+						<span class="amount dark-blue">&dollar;25.00</span>
+						<span class="box-label">Today</span>
+					</div>
+					
+					<div class="blue-box">
+						<span class="amount dark-blue">&dollar;175.00</span>
+						<span class="box-label">Last 7 Days</span>
+					</div>
+					
+					<div class="blue-box">
+						<span class="amount dark-blue">&dollar;1,170.00</span>
+						<span class="box-label">Current Balance</span>
+					</div>
+				</div>
+			</article>
+		</section>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="left-column">
+				<a href="index.html"><img src="img/footer-logo.png" width="120px" alt="SPIKE Dashboard"></a>
+			</div>
+			
+			<div class="right-column">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Questions?</a></li>
+					<li>&copy; 2014 SPIKE.</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
