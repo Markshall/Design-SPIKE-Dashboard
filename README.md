@@ -11,3 +11,6 @@ Design by Scott Greenwald (https://dribbble.com/shots/1638088-SPIKE-User-Dashboa
 
 ### Desktop
 ![Desktop version](https://markshall.github.io/screenshots/SPIKE-Dashboard/desktop.png)
+
+### Mobile
+This design has not been coded to be mobile responsive, however may be so in the near future.
